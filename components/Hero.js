@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <section id="perfil" className="hero">
@@ -33,14 +35,27 @@ export default function Hero() {
         </div>
       </div>
 
-      <h1 className="hero-title">
-        Desarrollo sistemas de punta a punta: del modelo de datos a la interfaz.
-      </h1>
-      <p className="hero-lede">
-        Estudiante de sistemas enfocado en desarrollo full-stack, diseño de bases de datos y
-        análisis de información. Acá reuní los proyectos que fui construyendo y los dashboards
-        que armé para transformar datos en decisiones.
-      </p>
+      <div className="hero-intro">
+        <div className="hero-avatar">
+          <Image
+            src="/perfil.png"
+            alt="Foto de perfil de Leandro Carranza"
+            width={128}
+            height={128}
+            priority
+          />
+        </div>
+        <div className="hero-intro-text">
+          <h1 className="hero-title">
+            Desarrollo sistemas de punta a punta: del modelo de datos a la interfaz.
+          </h1>
+          <p className="hero-lede">
+            Estudiante de sistemas enfocado en desarrollo full-stack, diseño de bases de datos y
+            análisis de información. Acá reuní los proyectos que fui construyendo y los dashboards
+            que armé para transformar datos en decisiones.
+          </p>
+        </div>
+      </div>
     </section>
   );
 }
