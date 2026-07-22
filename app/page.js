@@ -1,5 +1,6 @@
-import Sidebar from "../components/Sidebar";
+import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
+import Stack from "../components/Stack";
 import ProjectRecord from "../components/ProjectRecord";
 import DashboardTile from "../components/DashboardTile";
 import Contact from "../components/Contact";
@@ -8,13 +9,13 @@ import { dashboards } from "../data/dashboards";
 
 export default function Home() {
   return (
-    <div className="layout">
-      <Sidebar />
+    <>
+      <Navbar />
       <main className="main">
         <Hero />
+        <Stack />
 
         <section id="proyectos">
-          <p className="section-eyebrow">public.proyectos</p>
           <h2 className="section-title">Proyectos</h2>
           {projects.map((project) => (
             <ProjectRecord project={project} key={project.id} />
@@ -22,8 +23,7 @@ export default function Home() {
         </section>
 
         <section id="dashboards">
-          <p className="section-eyebrow">public.dashboards</p>
-          <h2 className="section-title">Dashboards de Power BI</h2>
+          <h2 className="section-title">Dashboards</h2>
           {dashboards.map((dashboard) => (
             <DashboardTile dashboard={dashboard} key={dashboard.id} />
           ))}
@@ -31,6 +31,6 @@ export default function Home() {
 
         <Contact />
       </main>
-    </div>
+    </>
   );
 }

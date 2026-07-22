@@ -1,46 +1,36 @@
 export default function Hero() {
   return (
     <section id="perfil" className="hero">
-      <div className="terminal">
-        <div className="terminal-bar">
-          <span />
-          <span />
-          <span />
-        </div>
-        <div className="terminal-body">
-          <div>
-            <span className="terminal-prompt">leandro@portfolio:~$ </span>
-            <span className="terminal-query">
-              <span className="kw">SELECT</span> nombre, rol, stack <span className="kw">FROM</span> perfil;
-            </span>
-          </div>
-          <table className="result-table">
-            <thead>
-              <tr>
-                <th>nombre</th>
-                <th>rol</th>
-                <th>stack</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Leandro Carranza</td>
-                <td>Estudiante de Analista Universitario en Sistemas Informáticos (AUSI)</td>
-                <td>C#/.NET · PostgreSQL · Next.js · Power BI</td>
-              </tr>
-            </tbody>
-          </table>
+      <div className="hero-top">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img className="hero-avatar" src="/foto-perfil.jpg" alt="Foto de Leandro Carranza" />
+        <div>
+          <p className="hero-eyebrow">
+            Estudiante de Analista Universitario en Sistemas Informáticos (UNC)
+          </p>
+          <h1 className="hero-title">Leandro Carranza</h1>
         </div>
       </div>
+<div className="hero-lede">
+        <p>
+          Soy estudiante avanzado de Analista Universitario en Sistemas Informáticos en la
+          Universidad Nacional de Córdoba, con experiencia en análisis de datos, desarrollo de
+          software y optimización de procesos.
+        </p>
+        <p>
+          A lo largo de mi formación académica y de distintos proyectos personales y
+          universitarios, adquirí experiencia en Power BI, SQL, C# y .NET, participando en el
+          desarrollo de aplicaciones backend y frontend, diseño de bases de datos, construcción
+          de APIs y creación de dashboards interactivos para el análisis de información.
+        </p>
+        <p>
+          Mi objetivo es desarrollarme profesionalmente en áreas de Data Analytics, Business
+          Intelligence o Desarrollo de Software, integrándome a un equipo donde pueda seguir
+          aprendiendo, aportar soluciones basadas en datos y continuar creciendo tanto técnica
+          como profesionalmente.
+        </p>
+      </div>
 
-      <h1 className="hero-title">
-        Desarrollo sistemas de punta a punta: del modelo de datos a la interfaz.
-      </h1>
-      <p className="hero-lede">
-        Estudiante de sistemas enfocado en desarrollo full-stack, diseño de bases de datos y
-        análisis de información. Acá reuní los proyectos que fui construyendo y los dashboards
-        que armé para transformar datos en decisiones.
-      </p>
     </section>
   );
 }
