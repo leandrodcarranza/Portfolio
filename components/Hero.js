@@ -3,7 +3,7 @@ export default function Hero() {
     <section id="perfil" className="hero">
       <div className="hero-top">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img className="hero-avatar" src="/foto-perfil.jpg" alt="Foto de Leandro Carranza" />
+        <img className="hero-avatar" src="/Foto-perfil.JPG" alt="Foto de Leandro Carranza" />
         <div>
           <p className="hero-eyebrow">
             Estudiante de Analista Universitario en Sistemas Informáticos (UNC)
