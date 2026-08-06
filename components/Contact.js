@@ -11,11 +11,11 @@ const contactItems = [
     href: "tel:+5493515595513",
     icon: FaPhone,
   },
-  {
-    label: "LinkedIn",
-    href: "https://linkedin.com/in/tu-usuario",
-    icon: FaLinkedin,
-  },
+  //{
+  //  label: "LinkedIn",
+  //  href: "https://linkedin.com/in/tu-usuario",
+  //  icon: FaLinkedin,
+  //},
 ];
 
 export default function Contact() {
