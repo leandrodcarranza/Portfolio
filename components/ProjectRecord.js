@@ -8,6 +8,16 @@ export default function ProjectRecord({ project }) {
         </span>
       </div>
       <p className="record-subtitulo">{project.subtitulo}</p>
+
+      {project.preview && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          className="record-preview"
+          src={project.preview}
+          alt={`Demostración animada de ${project.nombre}`}
+        />
+      )}
+
       <p className="record-descripcion">{project.descripcion}</p>
 
       <div className="stack-row">

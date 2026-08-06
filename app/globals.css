@@ -243,6 +243,14 @@ section {
   margin: 0 0 1.1rem;
 }
 
+.record-preview {
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  margin-bottom: 1.1rem;
+}
+
 .stack-row {
   display: flex;
   flex-wrap: wrap;

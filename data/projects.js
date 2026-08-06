@@ -15,10 +15,11 @@ export const projects = [
     nombre: "SmartInventory",
     subtitulo: "Sistema de gestión de inventario",
     descripcion:
-      "API en .NET 9 con autenticación JWT para administrar productos, ventas y compras, con dashboard de métricas usando Chart.js. Frontend oscuro con estética glassmorphism y navegación por pestañas.",
+      "API en .NET 9 con autenticación JWT para administrar productos, ventas y compras, vinculada a una base de datos PostgreSQL. Incluye un dashboard de métricas con Chart.js y un frontend con navegación por pestañas.",
     stack: [".NET 9 Web API", "PostgreSQL", "Entity Framework Core", "JWT", "Chart.js", "HTML/CSS/JS"],
     estado: "completo",
     repo: "https://github.com/leandrodcarranza/Inventario-Inteligente.git",
     demo: "",
+    preview: "/proyectos/smartinventory.gif",
   },
 ];
