@@ -24,10 +24,10 @@ export default function Hero() {
           de APIs y creación de dashboards interactivos para el análisis de información.
         </p>
         <p>
-          Mi objetivo es desarrollarme profesionalmente en áreas de Data Analytics, Business
-          Intelligence o Desarrollo de Software, integrándome a un equipo donde pueda seguir
-          aprendiendo, aportar soluciones basadas en datos y continuar creciendo tanto técnica
-          como profesionalmente.
+                  Mi objetivo es desarrollarme profesionalmente como Analista en Sistemas, en áreas de
+                  Tecnología, Data Analytics, Business Intelligence o Desarrollo de Software, integrándome a
+                  un equipo donde pueda seguir aprendiendo, aportar soluciones basadas en datos y continuar
+                  creciendo tanto técnica como profesionalmente.
         </p>
       </div>
 
